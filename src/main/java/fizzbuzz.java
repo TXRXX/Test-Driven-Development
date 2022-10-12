@@ -1,15 +1,14 @@
 public class fizzbuzz {
-    public String fz(int n){
-        if(n%3==0&&n%5==0){
+    public String fz(int n) {
+        if (n<=100 && n % 3 == 0 && n % 5 == 0) {
             return "FizzBuzz";
-        }
-        else if(n%3==0){
+        } else if (n<=100 && n % 3 == 0) {
             return "Fizz";
-        }else if(n%5==0){
+        } else if (n<=100 && n % 5 == 0) {
             return "Buzz";
-        }
-        else {
-            return n+"";
+        }else{
+            return n + "";
         }
     }
+
 }
