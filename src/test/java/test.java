@@ -17,7 +17,7 @@ public class test {
     void test_FizzBuzz2() {
         f1 = new fizzbuzz();
         String output = f1.fz(3);
-        assertEquals("3",output);
+        assertEquals("fizz",output);
     }
 
     @Test
@@ -25,6 +25,6 @@ public class test {
     void test_FizzBuzz3() {
         f1 = new fizzbuzz();
         String output = f1.fz(5);
-        assertEquals("5",output);
+        assertEquals("buzz",output);
     }
 }
