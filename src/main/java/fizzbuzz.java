@@ -6,7 +6,10 @@ public class fizzbuzz {
             return "Fizz";
         } else if (n<=100 && n % 5 == 0) {
             return "Buzz";
-        }else{
+        }else if(n>100) {
+            return "Invalid Value";
+        }
+        else{
             return n + "";
         }
     }
