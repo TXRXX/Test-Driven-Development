@@ -35,4 +35,12 @@ public class test {
         String output = f1.fz(15);
         assertEquals("FizzBuzz",output);
     }
+
+    @Test
+    @DisplayName("Insert 100")
+    void test_FizzBuzz5() {
+        f1 = new fizzbuzz();
+        String output = f1.fz(100);
+        assertEquals("Buzz",output);
+    }
 }
