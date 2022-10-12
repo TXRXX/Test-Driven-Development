@@ -43,4 +43,12 @@ public class test {
         String output = f1.fz(100);
         assertEquals("Buzz",output);
     }
+
+    @Test
+    @DisplayName("Insert 101")
+    void test_FizzBuzz6() {
+        f1 = new fizzbuzz();
+        String output = f1.fz(101);
+        assertEquals("Invalid Value",output);
+    }
 }
